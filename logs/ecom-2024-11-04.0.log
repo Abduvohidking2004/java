@@ -1,0 +1,32 @@
+2024-11-04T21:15:12.306+05:00  INFO 8570 --- [mijoz-plus] [main] u.backecommers.BackEcommersApplication   : Starting BackEcommersApplication using Java 17.0.10 with PID 8570 (/Users/abduvohid/Documents/backEcommers/build/classes/java/main started by abduvohid in /Users/abduvohid/Documents/backEcommers)
+2024-11-04T21:15:12.308+05:00  INFO 8570 --- [mijoz-plus] [main] u.backecommers.BackEcommersApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-04T21:15:12.735+05:00  INFO 8570 --- [mijoz-plus] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-04T21:15:12.769+05:00  INFO 8570 --- [mijoz-plus] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 5 JPA repository interfaces.
+2024-11-04T21:15:13.083+05:00  INFO 8570 --- [mijoz-plus] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-04T21:15:13.090+05:00  INFO 8570 --- [mijoz-plus] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-04T21:15:13.090+05:00  INFO 8570 --- [mijoz-plus] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-11-04T21:15:13.119+05:00  INFO 8570 --- [mijoz-plus] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-04T21:15:13.119+05:00  INFO 8570 --- [mijoz-plus] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 789 ms
+2024-11-04T21:15:13.175+05:00  INFO 8570 --- [mijoz-plus] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-04T21:15:13.209+05:00  INFO 8570 --- [mijoz-plus] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-04T21:15:13.229+05:00  INFO 8570 --- [mijoz-plus] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-04T21:15:13.391+05:00  INFO 8570 --- [mijoz-plus] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-04T21:15:13.403+05:00  INFO 8570 --- [mijoz-plus] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-04T21:15:13.464+05:00  INFO 8570 --- [mijoz-plus] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50f3ba6a
+2024-11-04T21:15:13.465+05:00  INFO 8570 --- [mijoz-plus] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-04T21:15:13.506+05:00  WARN 8570 --- [mijoz-plus] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-04T21:15:13.995+05:00  INFO 8570 --- [mijoz-plus] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-04T21:15:14.169+05:00  INFO 8570 --- [mijoz-plus] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-04T21:15:14.521+05:00  WARN 8570 --- [mijoz-plus] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-04T21:15:14.535+05:00  WARN 8570 --- [mijoz-plus] [main] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-11-04T21:15:14.623+05:00  INFO 8570 --- [mijoz-plus] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-11-04T21:15:14.624+05:00  WARN 8570 --- [mijoz-plus] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-04T21:15:15.523+05:00  INFO 8570 --- [mijoz-plus] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-04T21:15:15.530+05:00  INFO 8570 --- [mijoz-plus] [main] u.backecommers.BackEcommersApplication   : Started BackEcommersApplication in 3.448 seconds (process running for 3.883)
+2024-11-04T21:15:21.272+05:00  INFO 8570 --- [mijoz-plus] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-04T21:15:21.273+05:00  INFO 8570 --- [mijoz-plus] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-04T21:15:21.278+05:00  INFO 8570 --- [mijoz-plus] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-11-04T21:15:21.690+05:00  INFO 8570 --- [mijoz-plus] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 165 ms
+2024-11-04T21:15:36.769+05:00  INFO 8570 --- [mijoz-plus] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-04T21:15:36.772+05:00  INFO 8570 --- [mijoz-plus] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-04T21:15:36.779+05:00  INFO 8570 --- [mijoz-plus] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

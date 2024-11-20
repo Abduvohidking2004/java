@@ -1,0 +1,36 @@
+spring:
+  application.name: mijoz-plus
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ecom
+    driver-class-name: org.postgresql.Driver
+    username: abduvohid
+    password: Abdu2004
+    hikari.connectionTimeout: 100000
+    hikari.idleTimeout: 600000
+    hikari.maxLifetime: 1800000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+logging:
+  level:
+    root: INFO
+    liquibase: INFO
+    org.springframework.web: INFO
+  file:
+    name: ./logs/ecom.log
+  logback:
+    rolling-policy:
+      file-name-pattern: ./logs/ecom-%d{yyyy-MM-dd}.%i.log
+      max-file-size: 10MB
+      max-history: 100
+  pattern.console: '%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n'
+springdoc:
+  api-docs:
+    path: /ecom/v3/api-docs
+  swagger-ui:
+    path: /ecom/swagger-ui.html
+telegram:
+  bot-token: 7422406788:AAFSxJC3AyXq0GQ3AbQaTMoXiSc0uY_Sehs
+  bot-username: rasmtopdfbot
